@@ -1,4 +1,10 @@
-This is an example on creating a simple webserver to connect to regiboxd using REST calls.
+
+This is not an official regify product! It is just an example!
+No support, no warranty. Use at your own risk!
+
+This is a simple web server example that listens for POST requests
+on /post and hands over the received json "data" to the regiboxctl
+command.
 
 IMPORTANT: Before running
 1) you need to define the config directory of your regiboxd instance!
